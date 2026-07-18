@@ -1,0 +1,4 @@
+﻿Date / heure,Acteur,Action,Cible,Détails
+2026-07-17T18:16:35.287,SOC Analyst - Marie,Blocage définitif appliqué,INCIDENT #1,Incident #1 · alerte #4 · décision : BLOCKED
+2026-07-17T18:13:31.947,Sentinel IA,Décision de sécurité appliquée,EVENT #20,Utilisateur : Marie · score : 100/100 · décision : BLOCKED · raisons : Tentative de connexion échouée; Connexion à une heure inhabituelle; Localisation inhabituelle; Anomalie comportementale détectée par Sentinel IA
+2026-07-17T18:10:38.832,SOC Analyst - Ahmed,Blocage temporaire maintenu,INCIDENT #2,Incident #2 · alerte #6 · décision : TEMP_BLOCK
