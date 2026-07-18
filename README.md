@@ -13,24 +13,24 @@ Le système combine :
 
 ---
 
-# 🚀 Fonctionnalités principales
+#  Fonctionnalités principales
 
-## 🤖 Sentinel IA Decision Engine
+##  Sentinel IA Decision Engine
 
 Le moteur IA analyse chaque événement et attribue un score de risque selon plusieurs critères.
 
 Selon le niveau de menace, Sentinel IA peut recommander :
 
-- 🛑 Blocage immédiat
-- ⏳ Blocage temporaire
-- 🔍 Demande d'informations supplémentaires
-- ✅ Autorisation de l'action
+-  Blocage immédiat
+-  Blocage temporaire
+-  Demande d'informations supplémentaires
+-  Autorisation de l'action
 
 La décision finale reste contrôlée par l'analyste humain.
 
 ---
 
-## 🚨 Gestion des alertes
+##  Gestion des alertes
 
 Surveillance des événements suspects avec création automatique d'alertes.
 
@@ -41,7 +41,7 @@ Fonctionnalités :
 
 ---
 
-## 🔎 Analyse des incidents
+##  Analyse des incidents
 
 Les analystes peuvent étudier les incidents détectés :
 
@@ -52,7 +52,7 @@ Les analystes peuvent étudier les incidents détectés :
 
 ---
 
-## 🌍 Carte mondiale des attaques
+##  Carte mondiale des attaques
 
 Visualisation géographique permettant d'observer :
 
@@ -62,7 +62,7 @@ Visualisation géographique permettant d'observer :
 
 ---
 
-## 📜 Audit Logs
+##  Audit Logs
 
 Système complet de journalisation :
 
@@ -73,7 +73,7 @@ Système complet de journalisation :
 
 ---
 
-# 📸 Interface du système
+#  Interface du système
 
 ## Dashboard
 
