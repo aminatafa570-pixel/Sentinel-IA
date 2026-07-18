@@ -105,11 +105,11 @@ Système complet de journalisation :
 
 ---
 
-# 🏗️ Architecture du projet
+#  Architecture du projet
 
 ---
 
-# 🛠️ Technologies utilisées
+#  Technologies utilisées
 
 - Python
 - Intelligence artificielle
@@ -121,6 +121,6 @@ Système complet de journalisation :
 
 ---
 
-# 📌 Objectif
+#  Objectif
 
 Créer un système intelligent capable d'assister les équipes de cybersécurité dans la détection, l'analyse et la réponse aux cyberattaques.
