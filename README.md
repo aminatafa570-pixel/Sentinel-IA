@@ -8,14 +8,6 @@
 
 
 
-# 🛡️ Sentinel IA
-
-![Python](https://img.shields.io/badge/Python-3.14-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
-![AI](https://img.shields.io/badge/AI-Machine%20Learning-purple)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-SOC-green)
-![License](https://img.shields.io/badge/License-Private-lightgrey)
-
 ## Système intelligent de cybersécurité basé sur l'intelligence artificielle
 
 Sentinel IA est une plateforme de cybersécurité intelligente conçue pour détecter, analyser et répondre aux menaces informatiques en temps réel.
