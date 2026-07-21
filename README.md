@@ -151,6 +151,21 @@ Système complet de journalisation :
 
 ---
 
+# Démonstration
+
+Vidéo de présentation de Sentinel IA :
+
+[▶️ Voir la démonstration](demo/sentinel_ia_demo.mp4)
+
+La démonstration présente :
+- le lancement du système ;
+- la simulation d'attaques ;
+- l'analyse du risque par IA ;
+- la génération automatique d'alertes ;
+- la visualisation des événements sur la carte mondiale ;
+- la traçabilité via les Audit Logs.
+
+
 # Technologies utilisées
 
 - Python
@@ -162,6 +177,21 @@ Système complet de journalisation :
 - Cybersécurité
 
 ---
+
+# Installation et utilisation
+
+## Prérequis
+
+- Python 3.10 ou supérieur
+- Git
+
+## Installation
+
+Cloner le dépôt :
+
+```bash
+git clone https://github.com/aminatafa570-pixel/Sentinel-IA.git
+
 
 # Objectif
 
