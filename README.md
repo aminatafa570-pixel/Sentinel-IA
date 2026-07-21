@@ -1,18 +1,11 @@
 # 🛡️ Sentinel IA
 
-![Python](https://img.shields.io/badge/Python-3.14-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
-![AI](https://img.shields.io/badge/AI-Machine%20Learning-purple)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-SOC-green)
-
-
-
-
 ## Système intelligent de cybersécurité basé sur l'intelligence artificielle
 
 Sentinel IA est une plateforme de cybersécurité intelligente conçue pour détecter, analyser et répondre aux menaces informatiques en temps réel.
 
 Le système combine :
+
 - une détection automatique des événements de sécurité ;
 - une analyse par intelligence artificielle ;
 - un moteur de décision basé sur un score de risque ;
@@ -21,35 +14,36 @@ Le système combine :
 
 ---
 
-#  Fonctionnalités principales
+# Fonctionnalités principales
 
-##  Sentinel IA Decision Engine
+## Sentinel IA Decision Engine
 
 Le moteur IA analyse chaque événement et attribue un score de risque selon plusieurs critères.
 
 Selon le niveau de menace, Sentinel IA peut recommander :
 
--  Blocage immédiat
--  Blocage temporaire
--  Demande d'informations supplémentaires
--  Autorisation de l'action
+- Blocage immédiat
+- Blocage temporaire
+- Demande d'informations supplémentaires
+- Autorisation de l'action
 
 La décision finale reste contrôlée par l'analyste humain.
 
 ---
 
-##  Gestion des alertes
+## Gestion des alertes
 
 Surveillance des événements suspects avec création automatique d'alertes.
 
 Fonctionnalités :
+
 - détection des anomalies ;
 - classification des risques ;
 - historique des alertes.
 
 ---
 
-##  Analyse des incidents
+## Analyse des incidents
 
 Les analystes peuvent étudier les incidents détectés :
 
@@ -60,7 +54,7 @@ Les analystes peuvent étudier les incidents détectés :
 
 ---
 
-##  Carte mondiale des attaques
+## Carte mondiale des attaques
 
 Visualisation géographique permettant d'observer :
 
@@ -70,7 +64,7 @@ Visualisation géographique permettant d'observer :
 
 ---
 
-##  Audit Logs
+## Audit Logs
 
 Système complet de journalisation :
 
@@ -81,43 +75,25 @@ Système complet de journalisation :
 
 ---
 
-#  Interface du système
+# Interface du système
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard/dashboard_1.png)
-
 ## Alertes
-
-![Alertes](screenshots/alertes/alertes.png)
 
 ## Analyse IA
 
-![Analyse IA](screenshots/analyse_ia/analyse_ia.png)
-
 ## Incidents
-
-![Incidents](screenshots/incidents/incidents_1.png)
 
 ## Recommandations IA
 
-![Recommandations](screenshots/recommandations_ia/recommandations_ia_1.png)
-
 ## Audit Logs
-
-![Audit](screenshots/audit_logs/audit_logs_1.png)
 
 ## Carte mondiale
 
-![Carte](screenshots/carte_monde/carte_monde_1.png)
-
 ---
 
-#  Architecture du projet
-
----
-
-#  Technologies utilisées
+# Technologies utilisées
 
 - Python
 - Intelligence artificielle
@@ -129,6 +105,49 @@ Système complet de journalisation :
 
 ---
 
-#  Objectif
+# Objectif
 
 Créer un système intelligent capable d'assister les équipes de cybersécurité dans la détection, l'analyse et la réponse aux cyberattaques.
+
+---
+
+# Architecture du projet
+
+```text
+Sentinel_IA/
+│
+├── ai/                  # Détection d'anomalies et intelligence artificielle
+│   ├── anomaly_detector.py
+│   ├── predictor.py
+│   ├── train_ai.py
+│   └── data_loader.py
+│
+├── collectors/          # Génération et collecte des événements
+│
+├── dashboard/           # Interface Streamlit
+│   ├── app.py
+│   └── pages/
+│       ├── 🚨 Alertes
+│       ├── 🤖 Analyse IA
+│       ├── 🧩 Incidents
+│       ├── 💡 Recommandations IA
+│       ├── 📜 Audit Log
+│       ├── ⚔️ Attack Timeline
+│       └── 🌍 Carte Monde
+│
+├── database/            # Base SQLite et gestion des données
+│
+├── engine/              # Traitement des événements
+│
+├── models/              # Modèles SQLAlchemy
+│
+├── reports/             # Rapports d'investigation
+│
+├── security/            # Analyse des risques et réponse
+│
+├── screenshots/         # Captures d'écran du projet
+│
+├── requirements.txt
+├── README.md
+└── main.py
+```
