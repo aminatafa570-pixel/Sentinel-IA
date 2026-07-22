@@ -153,17 +153,21 @@ Système complet de journalisation :
 
 # Démonstration
 
-Vidéo de présentation de Sentinel IA :
+# 🎥 Démonstration
 
-[▶️ Voir la démonstration](demo/sentinel_ia_demo.mp4)
+Une démonstration complète de Sentinel IA est disponible ici :
 
-La démonstration présente :
-- le lancement du système ;
-- la simulation d'attaques ;
-- l'analyse du risque par IA ;
-- la génération automatique d'alertes ;
+▶️ https://youtu.be/sEWXhZPrdOg
+
+Cette démonstration présente :
+
+- le tableau de bord (Dashboard) ;
+- la simulation de plusieurs scénarios d'attaque ;
+- l'analyse des risques par Sentinel IA ;
+- la génération automatique des alertes ;
 - la visualisation des événements sur la carte mondiale ;
-- la traçabilité via les Audit Logs.
+- les recommandations de l'IA ;
+- les Audit Logs et la traçabilité des actions.
 
 
 # Technologies utilisées
