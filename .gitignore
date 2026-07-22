@@ -29,3 +29,4 @@ env/
 # Temporary files
 tmp*/
 tmp*
+demo/
